@@ -1,0 +1,44 @@
+<doctype! html>
+<html>
+    <head>
+        <title>Custom Css3 Scrollbars</title>
+        <style>
+            body{
+                font-family: sans-serif;
+                font-size:12px;
+                background: #fff;
+                overflow-y: hidden;
+            }
+            #widget{
+                width: 300px;
+                height:400px;
+                overflow: auto;
+            }
+            ::-webkit-scrollbar {
+                width: 10px;
+                height: 10px;
+            }
+            ::-webkit-scrollbar-button:start:decrement,
+            ::-webkit-scrollbar-button:end:increment  {
+                display: none;
+            }
+            
+            ::-webkit-scrollbar-track-piece  {
+                background-color: #3b3b3b;
+                -webkit-border-radius: 6px;
+            }
+            
+            ::-webkit-scrollbar-thumb:vertical {
+                -webkit-border-radius: 6px;
+                background: #666 url(scrollbar_thumb_bg.png) no-repeat center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="widget">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etidio,  at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Se at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjgggdjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjggg at lectus. Sed ligula eit. Etidio, eu fringilla arcu arcu at lectus. Sedjgggsuvgcipit bibendum. Nunc vel pulvinar turpis. Etiam pretium malesuada nibh vel pellentesque.</p>
+ 
+            <p>Cras vitae justo arcu. Proin at tellus id libero adipiscrisque porta diam. Suspendisse potenti. Curabitur in neque sem. Nullam molestie quam aliquet lorem convallis id semper nisi eleifend. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+    </body>
+</html>
